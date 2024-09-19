@@ -32,7 +32,7 @@ public class DemoTest {
 // This is a login test  
 	@Test
 	public void login() {
-		driver.get("https://demo.testfire.net/loginjsp");
+		driver.get("https://demo.testfire.net/login.jsp");
 		driver.findElement(By.id("uid")).sendKeys("jsmith");
 		driver.findElement(By.id("passw")).sendKeys("demo1234");
 		js.executeScript("document.getElementsByName('btnSubmit')[0].click()");
