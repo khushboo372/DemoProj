@@ -29,7 +29,7 @@ public class DemoTest {
 		driver.manage().window().maximize();
 
 	}
-
+// This is a login test
 	@Test
 	public void login() {
 		driver.get("https://demo.testfire.net/login.jsp");
